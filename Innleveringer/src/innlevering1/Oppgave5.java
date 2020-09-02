@@ -9,7 +9,7 @@ public class Oppgave5 {
 
 		int antall = 0;
 		int poeng = 0;
-		for (; antall < 2; antall++) {
+		for (; antall < 10; antall++) {
 			poeng = parseInt(showInputDialog("Poengsum"));
 			if (poeng > 100 || poeng < 0) {
 				showMessageDialog(null, "Poengsummen må være mellom 0 og 100");
