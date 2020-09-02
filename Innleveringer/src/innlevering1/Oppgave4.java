@@ -10,7 +10,7 @@ public class Oppgave4 {
 		int inntekt = parseInt(showInputDialog("Inntekt"));
 
 		if (inntekt <= 180800) {
-			showMessageDialog(null, "grattis, null trinnskatt");
+			showMessageDialog(null, "Ingen trinnskatt");
 		}
 		if (inntekt > 180800 && inntekt <= 254500) {
 			double skatt = inntekt * .019;
